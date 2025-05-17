@@ -10,6 +10,7 @@ while True:
     elif guess < number:
         print("guessed too low,try again")
     else:
-        print(f"huray,after this many attempts {attempts } you got it right") 
+        print(f"huray,after this many attempts {attempts } you got it right")
+        break
    
     
